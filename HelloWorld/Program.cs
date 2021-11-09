@@ -8,10 +8,9 @@ namespace HelloWorld
         static void Main(string[] args)
         {
             // Console.WriteLine("Hello World");
-            byte b = 1;
-            int i = b;
-            Console.WriteLine(i);
-            
+            int i = 1000;
+            byte b = (byte) i;
+            Console.WriteLine(b);
         }
     }
 }
